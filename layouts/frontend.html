@@ -1,13 +1,16 @@
 {{> header}}
 {{> navigation}}
 
-<p>frontend</p>
-<ul>
-  {{#each collections.frontend}}
-    <li>
-      <a href="/{{this.path}}">{{this.title}}</a>
-    </li>
+<div class="frontend">
+  <h2>Front end</h2>
+  <div class="thumbs clearfix">
+    {{#each collections.frontend}}
+      <a href="/{{this.path}}">
+        <img src="/assets/images/frontend/{{this.title}}.jpg" />
+        <p class="center">{{this.title}}</p>
+      </a>
     {{/each}}
-</ul>
+  </div>
+</div>
 
 {{> footer}}

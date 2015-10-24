@@ -1,44 +1,43 @@
 {{> header}}
 {{> navigation}}
 
-<p>html</p>
-<ul>
-  {{#each collections.games}}
-    {{#if this.html}}
-      <li>
+<div class="games">
+
+  <h2>HTML (JS)</h2>
+  <div class="thumbs clearfix">
+    {{#each collections.games}}
+      {{#if this.html}}
         <a href="/{{this.path}}">
-          {{this.title}}
           <img src="/assets/images/games/{{this.title}}.jpg" />
+          <p class="center">{{this.title}}</p>
         </a>
-      </li>
-    {{/if}}
-  {{/each}}
-</ul>
-<p>flash</p>
-<ul>
-  {{#each collections.games}}
-    {{#if this.flash}}
-      <li>
+      {{/if}}
+    {{/each}}
+  </div>
+
+  <h2>iOS/Android (Lua)</h2>
+  <div class="thumbs clearfix">
+    {{#each collections.games}}
+      {{#if this.ios}}
         <a href="/{{this.path}}">
-          {{this.title}}
           <img src="/assets/images/games/{{this.title}}.jpg" />
+          <p class="center">{{this.title}}</p>
         </a>
-      </li>
-    {{/if}}
-  {{/each}}
-</ul>
-<p>ios</p>
-<ul>
-  {{#each collections.games}}
-    {{#if this.ios}}
-      <li>
+      {{/if}}
+    {{/each}}
+  </div>
+
+  <h2>Flash (AS3)</h2>
+  <div class="thumbs clearfix">
+    {{#each collections.games}}
+      {{#if this.flash}}
         <a href="/{{this.path}}">
-          {{this.title}}
           <img src="/assets/images/games/{{this.title}}.jpg" />
+          <p class="center">{{this.title}}</p>
         </a>
-      </li>
-    {{/if}}
-  {{/each}}
-</ul>
+      {{/if}}
+    {{/each}}
+  </div>
+</div>
 
 {{> footer}}
