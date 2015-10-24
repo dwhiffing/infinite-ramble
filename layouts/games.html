@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+<head>
+  <title>{{title}}</title>
+</head>
+<body>
+  {{> header}}
+  <ul>
+    {{#each collections.games}}
+    <li>
+      <a href="/{{this.path}}">{{this.filetitle}}</a>
+    </li>
+    {{/each}}
+  </ul>
+  {{> footer}}
+</body>
+</html>

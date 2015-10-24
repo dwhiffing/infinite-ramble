@@ -2,12 +2,14 @@
   "name": "infinite-ramble",
   "private": true,
   "dependencies": {
-    "metalsmith-drafts": "0.0.1",
+    "handlebars": "^4.0.3",
+    "metalsmith": "^1.0.0",
+    "metalsmith-collections": "^0.7.0",
     "metalsmith-layouts": "^1.4.2",
     "metalsmith-markdown": "^0.2.1",
     "metalsmith-permalinks": "^0.1.0",
-    "metalsmith": "^1.0.0",
-    "handlebars": "^4.0.3"
+    "metalsmith-slug": "0.0.5",
+    "skeleton": "^0.1.2"
   },
   "scripts": {
     "build": "metalsmith"
