@@ -1,41 +1,44 @@
-<!doctype html>
-<html>
-<head>
-  <title>{{title}}</title>
-</head>
-<body>
-  {{> header}}
-  {{> navigation}}
-  <p>html5</p>
-  <ul>
-    {{#each collections.games}}
-      {{#if this.html}}
-        <li>
-          <a href="/{{this.path}}">{{this.filetitle}}</a>
-        </li>
-      {{/if}}
-    {{/each}}
-  </ul>
-  <p>flash</p>
-  <ul>
-    {{#each collections.games}}
-      {{#if this.flash}}
-        <li>
-          <a href="/{{this.path}}">{{this.filetitle}}</a>
-        </li>
-      {{/if}}
-    {{/each}}
-  </ul>
-  <p>ios</p>
-  <ul>
-    {{#each collections.games}}
-      {{#if this.ios}}
-        <li>
-          <a href="/{{this.path}}">{{this.filetitle}}</a>
-        </li>
-      {{/if}}
-    {{/each}}
-  </ul>
-  {{> footer}}
-</body>
-</html>
+{{> header}}
+{{> navigation}}
+
+<p>html</p>
+<ul>
+  {{#each collections.games}}
+    {{#if this.html}}
+      <li>
+        <a href="/{{this.path}}">
+          {{this.title}}
+          <img src="/assets/images/games/{{this.title}}.jpg" />
+        </a>
+      </li>
+    {{/if}}
+  {{/each}}
+</ul>
+<p>flash</p>
+<ul>
+  {{#each collections.games}}
+    {{#if this.flash}}
+      <li>
+        <a href="/{{this.path}}">
+          {{this.title}}
+          <img src="/assets/images/games/{{this.title}}.jpg" />
+        </a>
+      </li>
+    {{/if}}
+  {{/each}}
+</ul>
+<p>ios</p>
+<ul>
+  {{#each collections.games}}
+    {{#if this.ios}}
+      <li>
+        <a href="/{{this.path}}">
+          {{this.title}}
+          <img src="/assets/images/games/{{this.title}}.jpg" />
+        </a>
+      </li>
+    {{/if}}
+  {{/each}}
+</ul>
+
+{{> footer}}

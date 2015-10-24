@@ -1,0 +1,16 @@
+{{> header}}
+{{> navigation}}
+
+<p>painting</p>
+<ul>
+  {{#each collections.painting}}
+    <li>
+      <a href="/{{this.path}}">
+        {{this.title}}
+        <img src="/assets/images/painting/thumbs/{{this.title}}.jpg" />
+      </a>
+    </li>
+    {{/each}}
+</ul>
+
+{{> footer}}

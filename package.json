@@ -2,15 +2,20 @@
   "name": "infinite-ramble",
   "private": true,
   "dependencies": {
+    "connect": "^3.4.0",
+    "connect-livereload": "^0.5.3",
     "handlebars": "^4.0.3",
     "metalsmith": "^1.0.0",
+    "metalsmith-browser-sync": "^1.1.0",
     "metalsmith-collections": "^0.7.0",
     "metalsmith-in-place": "^1.3.2",
     "metalsmith-layouts": "^1.4.2",
     "metalsmith-markdown": "^0.2.1",
     "metalsmith-permalinks": "^0.1.0",
     "metalsmith-slug": "0.0.5",
-    "skeleton": "^0.1.2"
+    "metalsmith-watch": "^1.0.1",
+    "skeleton": "^0.1.2",
+    "tiny-lr-fork": "0.0.5"
   },
   "scripts": {
     "build": "metalsmith"

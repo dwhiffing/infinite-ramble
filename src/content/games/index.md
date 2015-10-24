@@ -1,0 +1,5 @@
+---
+layout: games.html
+---
+
+games
