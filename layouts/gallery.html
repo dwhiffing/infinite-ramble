@@ -1,9 +1,21 @@
-<div id="gallery" class="nine columns">
-    <ul >
-    {{#each images }}
-        <li>
-            <img src="{{this}}" alt="">
-        </li>
-    {{/each}}
-    </ul>
-</div>
+<!doctype html>
+<html>
+<head>
+  <title>{{title}}</title>
+</head>
+<body>
+  {{> header}}
+  {{> navigation}}
+  {{{contents}}}
+  <div id="gallery" class="nine columns">
+      <ul >
+      {{#each images }}
+          <li>
+              <img src="{{this}}" alt="">
+          </li>
+      {{/each}}
+      </ul>
+  </div>
+  {{> footer}}
+</body>
+</html>

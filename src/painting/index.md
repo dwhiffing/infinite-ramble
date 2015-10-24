@@ -1,5 +1,3 @@
 ---
-title: thing
-layout: gallery.html
+layout:  gallery.html
 ---
-<p>The contents</p>
