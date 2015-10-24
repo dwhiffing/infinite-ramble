@@ -1,0 +1,16 @@
+{
+  "metadata": {
+    "title": "Infinite Ramble",
+    "description": "testing..."
+  },
+  "plugins": {
+    "metalsmith-drafts": {},
+    "metalsmith-markdown": {},
+    "metalsmith-permalinks": {
+      "pattern": ":title"
+    },
+    "metalsmith-layouts": {
+      "engine": "handlebars"
+    }
+  }
+}
