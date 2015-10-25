@@ -1,6 +1,6 @@
 ---
 layout: flash.html
-flashWidth: "900px"
+flashWidth: "1000px"
 flashHeight: "539px"
 flash: true
 ---

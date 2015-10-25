@@ -2,11 +2,16 @@
 <html>
 <head>
   <title>{{title}}</title>
+	 <style>object {
+     display: block;
+    margin: 0 auto;
+    min-width: 100%;
+     }</style>
 	 <script src="/assets/swf/swfobject.js"></script>
 	<script>
 		var params = {
 			movie: "/assets/swf/ikea-monkey.swf",
-      bgcolor: "",
+      bgcolor: "#ffffff",
 			allowFullscreen: "true",
 			allowScriptAccess: "always"
 		};
@@ -20,8 +25,8 @@
   {{> header}}
   {{> navigation}}
 
+		<h2>{{this.title}}</h2>
   	<div id="altContent">
-  		<h1>{{this.title}}</h1>
   		<p><a href="http://www.adobe.com/go/getflashplayer">Get Adobe Flash player</a></p>
   	</div>
 

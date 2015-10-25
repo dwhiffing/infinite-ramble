@@ -5,7 +5,7 @@
   <h2>Painting</h2>
   <div class="thumbs clearfix">
     {{#each collections.painting}}
-      <a href="/{{this.path}}">
+      <a class="{{this.title}}" href="/{{this.path}}">
         <img src="/assets/images/painting/thumbs/{{this.title}}.jpg" />
         <p class="center">{{this.title}}</p>
       </a>

@@ -1,9 +1,15 @@
+.container {
+  max-width: 900px;
+}
 .thumbs a {
   display: block;
   float: left;
-  width: 32%;
+  width: 33.3333%;
   padding: 0 20px;
   box-sizing: border-box;
+}
+.thumbs .index {
+  display: none;
 }
 a {
   color: #333;

@@ -1,7 +1,7 @@
 ---
 layout: flash.html
-flashWidth: "800px"
-flashHeight: "1200px"
+flashWidth: "700px"
+flashHeight: "800px"
 flash: true
 ---
 made for fun, based on a mechanic inspired by Dungeon raid for ios/android
