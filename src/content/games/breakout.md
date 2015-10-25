@@ -6,9 +6,16 @@ flash: true
 date: 2001
 ---
 
+---
+
 Simple breakout prototype
-INSERT CONTROLS HERE
+
+* Arrow keys to moves
+
+---
 
 Language: AS3
+
 Framework: Flixel
+
 Year: 2011

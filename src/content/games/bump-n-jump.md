@@ -6,8 +6,17 @@ flash: true
 date: 2000
 ---
 
+---
+
 Simple action game/endless runner prototype that eventually became the basis for 'heartless' and 'ikea monkey'
 
+* WASD to move
+* Spacebar to jump
+
+---
+
 Language: AS3
-Framework: flixel
+
+Framework: Flixel
+
 Year: 2012

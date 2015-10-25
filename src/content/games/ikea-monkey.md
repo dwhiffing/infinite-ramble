@@ -6,12 +6,19 @@ flash: true
 date: 2005
 ---
 
+---
+
 Made to sell t-shirts back when the whole fiasco was happening!
 
 A quirky, if buggy, adventure into finishing a game in a weekend
 
-INSERT CONTROLS HERE
+* Arrow keys to move
+* Spacebar to throw poo
+
+---
 
 Language: AS3
+
 Framework: Flixel
+
 Year: 2013
