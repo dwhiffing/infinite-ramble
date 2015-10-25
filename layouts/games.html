@@ -7,9 +7,9 @@
   <div class="thumbs clearfix">
     {{#each collections.games}}
       {{#if this.html}}
-        <a href="../{{this.title}}">
+        <a href="../jsgames/{{this.title}}">
           <img src="/assets/images/games/{{this.title}}.jpg" />
-          <p class="center">{{this.title}}</p>
+          <p class="center">{{this.display_title}}</p>
         </a>
       {{/if}}
     {{/each}}
@@ -21,7 +21,7 @@
       {{#if this.ios}}
         <a href="/{{this.path}}">
           <img src="/assets/images/games/{{this.title}}.jpg" />
-          <p class="center">{{this.title}}</p>
+          <p class="center">{{this.display_title}}</p>
         </a>
       {{/if}}
     {{/each}}
@@ -33,7 +33,7 @@
       {{#if this.flash}}
         <a href="/{{this.path}}">
           <img src="/assets/images/games/{{this.title}}.jpg" />
-          <p class="center">{{this.title}}</p>
+          <p class="center">{{this.display_title}}</p>
         </a>
       {{/if}}
     {{/each}}

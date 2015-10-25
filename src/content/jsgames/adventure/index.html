@@ -1,0 +1,24 @@
+---
+layout: layout.html
+---
+
+<h2>Adventure</h2>
+
+<div id="super-candy-adventure-saga" style="margin:0 auto;"></div>
+
+<script src="assets/vendor.js"></script>
+<script src="assets/scripts.js"></script>
+<script>
+  document.onreadystatechange = function () {
+    if (document.readyState == "complete") {
+      document.getElementById("container").style.width = document.getElementsByTagName("canvas")[0].width+"px"
+    }
+  }
+</script>
+
+</br>
+<ul>
+  <li>Click and hold the skull and drag a path through matching tiles</li>
+  <li>Match at least three before you start a new color</li>
+  <li>Try to clear the whole floor in one move</li>
+</ul>

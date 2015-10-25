@@ -2,6 +2,6 @@
 layout: layout.html
 ---
 
-## Index page
+## Infinite Ramble
 
-This needs to have something simple and nice
+a website on the internet.

@@ -5,8 +5,14 @@
   display: block;
   float: left;
   width: 33.3333%;
-  padding: 0 20px;
+  padding: 15px 20px;
   box-sizing: border-box;
+}
+.thumbs p {
+  margin-top: 5px;
+}
+.footer {
+  margin-top: 45px;
 }
 .thumbs .index {
   display: none;

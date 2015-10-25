@@ -24,10 +24,10 @@ layout: layout.html
 
 ## Employment History
 ---
-  Full Stack Developer - JS/Ruby - Avid Life Media 2012 - Present.
-  Game Developer/Designer - AS3/Lua - Extra Extra Games 2013-2014
+  * Full Stack Developer - JS/Ruby - Avid Life Media 2012 - Present.
+  * Game Developer/Designer - AS3/Lua - Extra Extra Games 2013-2014
 
 ## Education
 ---
-  Seneca@York University
-  Sheridan College
+  * Seneca@York University
+  * Sheridan College
