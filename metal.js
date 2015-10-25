@@ -2,7 +2,6 @@ var Metalsmith = require('metalsmith')
 var markdown = require('metalsmith-markdown')
 var permalinks = require('metalsmith-permalinks')
 var collections = require('metalsmith-collections')
-var watch = require('metalsmith-watch')
 var layouts = require('metalsmith-layouts')
 var Handlebars = require('handlebars')
 var fs = require('fs');
@@ -25,7 +24,7 @@ Metalsmith(__dirname)
   .use(original_filename)
   .use(collections({
     games: {
-      pattern: 'content/games/*.md',
+      pattern: 'content/games/**/*.md',
       sortBy: "date",
       reverse: true
     },
@@ -43,12 +42,6 @@ Metalsmith(__dirname)
   .use(permalinks(':collections'))
   .use(layouts('handlebars'))
   .destination('./dist')
-  // .use(watch({
-  //   paths: {
-  //     "${source}/**/*": true,
-  //     "layouts/**/*": "**/*",
-  //   }
-  // }))
   .build(function(err) {
      if (err) throw err;
    });
