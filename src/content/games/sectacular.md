@@ -1,6 +1,15 @@
 ---
 layout: layout.html
 ios: true
+date: 2007
 ---
-iphone game made for Extra Extra games
-framework: corona (lua)
+
+![Sectacular](/assets/images/games/sectacular-big.png)
+
+iOS/Android game made for Extra Extra games
+
+http://extraextragames.com/app/sectacular-quebec/
+
+Language: Lua
+framework: Corona
+Year: 2014

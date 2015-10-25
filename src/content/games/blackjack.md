@@ -3,6 +3,12 @@ layout: flash.html
 flashWidth: "800px"
 flashHeight: "700px"
 flash: true
+date: 2002
 ---
-made for fun, based on a mechanic inspired by Dungeon raid for ios/android
-framework: Phasr
+
+Simple blackjack prototype.
+INSERT CONTROLS HERE
+
+Language: AS3
+Framework: Flixel
+Year: 2011

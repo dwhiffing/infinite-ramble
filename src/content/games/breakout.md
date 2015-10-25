@@ -3,6 +3,12 @@ layout: flash.html
 flashWidth: "640px"
 flashHeight: "500px"
 flash: true
+date: 2001
 ---
-made for fun, based on a mechanic inspired by Dungeon raid for ios/android
-framework: Phaser
+
+Simple breakout prototype
+INSERT CONTROLS HERE
+
+Language: AS3
+Framework: Flixel
+Year: 2011

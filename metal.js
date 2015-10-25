@@ -26,7 +26,8 @@ Metalsmith(__dirname)
   .use(collections({
     games: {
       pattern: 'content/games/*.md',
-      sortBy: "order"
+      sortBy: "date",
+      reverse: true
     },
     painting: {
       pattern: 'content/painting/*.md'

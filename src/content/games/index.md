@@ -1,5 +1,3 @@
 ---
 layout: games.html
 ---
-
-games
