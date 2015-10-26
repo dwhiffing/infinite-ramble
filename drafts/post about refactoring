@@ -1,0 +1,67 @@
+# im looking at the bottom of one of my coffee script classes and i notice a group of methods like this
+
+  delay: (amount) -> @delayTime = amount; this
+  repeat: (times) -> @repeat = times; this
+  chain: -> @chainedTweens = arguments; this
+  yoyo: (yoyo) -> @yoyo = yoyo; this
+  easing: (easing) -> @easingFunction = easing; this
+  interpolation: (interpolation) -> @interpolationFunction = interpolation; this
+  onStart: (callback) -> @onStartCallback = callback; this
+  onUpdate: (callback) -> @onUpdateCallback = callback; this
+  onComplete: (callback) -> @onCompleteCallback = callback; this
+  onStop: (callback) -> @onStopCallback = callback; this
+
+# im thinking of how to get rid of this mess, as each of these basically mean the same thing
+  
+  # create a method "thing", whos argument is a variable of type "thing" and set the instanced version 
+  # of that thing in self to this argument, then return self to allow chaining
+  thing: (thing) -> @thing = thing; this
+
+# we should be able to define this pattern once and pass in a list of the attributes we want setters for
+
+# before we do this, what is the fastest way to write this method?
+
+# first lets make a list of all the method names we want setters for
+
+# to do this we need all the words in an array, which means either typing them all out by hand,
+# or cutting apart the previous implementation.  I prefer the latter
+
+# the most efficient way to do this in our example (in sublime) is this:
+
+# select all colons, (cmd+d*num_colons), move left (left) select to the end of the line (shift+right) and delete
+
+delay
+repeat
+chain
+yoyo
+easing
+interpolation
+onStart
+onUpdate
+onComplete
+onStop
+
+# select each line (shift+left), quote it, jump to the end (cmd+right), and add a comma
+
+"delay",
+"repeat",
+"chain",
+"yoyo",
+"easing",
+"interpolation",
+"onStart",
+"onUpdate",
+"onComplete",
+"onStop",
+
+# join (cmd+j) and jump to the end of the line (cmd+right) delete the comma (del), and select to the end (shift+left)
+# type open square bracket
+
+["delay", "repeat", "chain", "yoyo", "easing", "interpolation", "onStart", "onUpdate", "onComplete", "onStop"]
+
+# this is ~ 20 keystrokes, down to ~ 10 if you have a key to select all instances of a string
+
+# now we want to enumerate over this list to generate a method for each where thing is the string
+  thing: (thing) -> @thing = thing; this
+
+# BLH BALH BALHBALHBAL just write a pattern that amkes getters/setters for each string in an array

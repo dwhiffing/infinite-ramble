@@ -1,0 +1,66 @@
+proposal for code review
+
+
+instead of leaving review notes as comments on gitlab, we should make a code review commit
+
+this is more work, but less work in the long run.
+
+youve already spent the time looking at the ticket, understanding the problem, looking at the solution in the commit, deciding if it works, thinking of other solutions that could be better, and leaving a comment
+
+you might as well just show the person what you mean through code
+
+often people will mis understand eachothers code review because of something lost in translations between english and code
+
+instead we should make a code review commit on the remote on top of the ticket commit
+
+This will show exactly what we think should be done
+
+this has drawbacks: it takes a bit more time, it may offend some people as they see their code changed significantly
+
+but if the changes are made sparingly, its a much better way to explain code review
+
+the other person can make more changes on top in response, etc
+
+all this can be squashed down to the initial commit when both are satisfied
+
+this saves the trouble of having a conversation explaining the change if something is not understood
+
+in most instances will prevent any misunderstandings at all, as the other person will know exactly what you mean, or will be able to research it independently
+
+in the end, all the code is a group effort, and we should utilize git more when explaining changes during code review
+
+gitlab attempts to do something like this, but its functionality is limited and unfamiliar.
+
+We are all already familiar with git, and we only need to have a few conventions about to write a code review commit
+
+1. specify that its a code review commit
+
+this makes it clear to the reader that its a suggestion, and not an overwrite and will help prevent offense
+
+2. make use of comments
+
+we can leave lots of comments inline explain our changes, rather than relying on gitlab to explain in english below the initial commit
+
+this way its written once, so that if the other person accepts, we can just squash and remove the comments
+
+in the previous work flow:
+
+a commits, b reads commit, b leaves comments, a reads comments and understands and makes changes, b accepts merge request
+
+a commits, b reads commit, b leaves comments, a reads comments and misunderstands and makes changes, b leaves more suggestions, a reads comments and misunderstands and makes changes.etc repeat 4-5 times
+
+some tickets may take a long time simply do to misunderstandings
+
+these could be avoided by just showing precisly what you mean through code and preventing any chance of not understanding
+
+new work flow
+
+a commits, b reads commit, b leaves comments, a squashes CR commit and accepts merge request
+
+a commits, b reads commit, b leaves CR commit, a reads CR commit, researches things they dont understand, asks the reviewer any questions and leaves a CR commit, .etc repeat 4-5 times
+
+this workflow could still result in extended review, but the loop will be shorter because there wont be misunderstandings about what each person was suggesting, only about the actual code, which is what we are really trying to get to
+
+I think the most important thing about this workflow is its cooperative.  We learn how to work closer together, and learn more from eachother while also using less of eachothers time
+
+v

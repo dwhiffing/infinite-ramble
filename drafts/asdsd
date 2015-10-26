@@ -1,0 +1,37 @@
+release schedule
+
+In order to release games as soon as possible after a news event occurs, we need to 
+make sure that it is possible to produce a game in under a week.  This will be easier
+if we strip out as much as possible for the initial release and add extra content a week
+later.  This will make it easier to stick to deadlines, and force us to have a better
+idea of the design of the game ahead of time.
+
+Game starts --  News event occurs
+
+1. Game Design:
+  - What will the gameplay be like?
+  - Why will players be drawn to the game?
+  - What features are absolutely necessary for inital release?
+  - How will the game generate revenue?
+  - What features will be implemented on update?
+
+2. Game Prototype
+  - Art is in progress
+  - Initial gameplay prototype is produced to see how the game plays
+  - reveals possible technical challenges early on
+
+3. Asset Creation
+  - Assets are received and modified and dissected to work on a sprite sheet
+  - Decide how assets will be loaded
+
+4. Game polishing
+  - Only manditory features are in the game at this point to allow for quicker release
+  - Testing on various devices
+  - Final last minute changes
+
+5. Inital release
+  - Prepare for features that will be added in update
+  - Have bugs reported to be fixed in the update
+
+6. Update release
+  - Decide if further updates are needed

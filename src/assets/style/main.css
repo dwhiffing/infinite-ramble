@@ -1,6 +1,9 @@
 .container {
   max-width: 900px;
 }
+#game-container canvas {
+  margin: 0 auto;
+}
 .thumbs a {
   display: block;
   float: left;

@@ -1,0 +1,70 @@
+blog post about board games
+
+Traditional board games are all basically the same game, tokens and dice
+
+Newer more complex games are becoming more complicated
+
+only people that really like board games are going to bother buying these expensive complicated ones
+
+therefore marketing to a casual audience is senseless
+
+This is why so many of the classic board games are essentially the same
+
+People werent interested in board games, and without interest, investing money and time into learning a new game isnt something people want to do. 
+
+But after a few decades of monopoly, anyone could basically play any board game and have an immediate sense of how to play
+
+But the possibilities for board games are endless.  Any game design that can be developed on a computer can be adapted to a physical game
+
+Im not saying that call of duty can be faithfully converted to a board game, but when you examine the core gameplay mechanics and build from the ground up, we can take any basic game design and build it as a 'board' game instead
+
+Even people who dont like board games can roll the dice and move their token without investing any real thought or care into the game itself
+
+In fact, a lot of board games actually play themselves, with little opportunity to use any sort of strategy, tactic, or make any import decisions.
+
+Its essentially a program, the instruction manual is the source code, and you are the compiler and The board is the output.
+
+Here, I'll prove it to you.  This is one possibility in pseudo code for the simple board game:
+
+insert pseudo code
+
+More complex board games inturn require more source code, more instructions for you to consider and evaluate.
+
+Board games only truly become interesting when we stop being compilers and instead become an Intelligence.  Complex board games offer opportunities for decisions that arent written in the source code.  A compiler would crash at this point, but we instead use our experiences and knowledge to make a decision.  
+
+Whenever someone suggests to play monopoly, I die a little inside.  The thought of rolling the dice in futuility for 2 hours while we leave luck to decide who the victor would be.
+
+While monopoly does have a small degree of strategy and allows for decision making, the best decisions are all quite obvious.
+
+sure, you could land on douglas and choose NOT to buy it, but why on earth would you do that?
+
+It really comes down to rolling the right numbers, and not making and stupid decisions, and a computer could easily be the worlds best monopoly player given a simple ai the aid in decision making.  But more than half the time, you could probably beat him, simply because luck is such a large factor in the outcome of the game.
+
+Lets make another comparison to programming.  Lets generate some particles with javascript and html5:
+
+
+particles here
+
+
+Here is the function call to generate the particles:
+
+Right now, it is entirely random.  The particles will go wherever they were initially determined to go, and all you can do is bet on the outcome and hope you win.
+
+But say we changed it a bit.  Lets add the ability to effect the position of the particles:
+
+particles here
+
+
+Now if you were to guess where the particles end up, you have a much higher chance of being correct.  
+
+Which was more interesting?
+
+This brings me to conways game of life:
+
+This is an interesting niche in the categories of games, as The Game of Life has a board game, as well as a computer simulation.  However, they have absolutely nothing in common.
+
+While conways game of life can be played on a board, I doubt you would have much fun moving tiles around.
+
+The real fun in conways game of life is seeing how a small set of simple rules can have a MASSIVE opportunity for variety
+
+Our random particle display from before looks like this
