@@ -28,10 +28,18 @@ layout: layout.html
 
 ## Employment History
 ---
-  * Full Stack Developer - JS/Ruby - Avid Life Media 2012 - Present.
-  * Game Developer/Designer - AS3/Lua - Extra Extra Games 2013-2014
+#### Full Stack Developer - Avid Life Media.  2012 - Present.
+
+* Maintained a legacy product using Ruby/Merb, JS/Backbone, jQuery, SASS.etc
+* Used Ruby/Rails and JS/Node on a daily basis on a product with millions of users
+* Modernized a legacy product using React/Redux with a documented and test covered node application
+* Worked closely with product managers to ensure that app specs are up to standards
+
+#### Game Developer/Designer - Extra Extra Games. 2013 - 2014.
+* Developed viral games for iOS using Lua and Corona
+* Designed and developed games independently, receiving art and traffic from coworkers
 
 ## Education
 ---
-  * Seneca@York University
-  * Sheridan College
+  * Seneca@York University - Illustration
+  * Sheridan College - Art Fundamentals
