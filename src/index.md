@@ -1,3 +1,3 @@
 ---
-layout: layout.html
+layout: games.html
 ---

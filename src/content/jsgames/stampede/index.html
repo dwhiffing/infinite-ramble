@@ -1,0 +1,52 @@
+---
+layout: layout.html
+---
+
+<h2>Stampede</h2>
+
+<style>
+  canvas {
+    height: 400px;
+    width: 400px;
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0 auto;
+  }
+  #app {
+    overflow: hidden;
+    margin: 0 auto;
+  }
+</style>
+<script src="./phaser.min.js"></script>
+  <div id="background">
+    <div id="app"></div>
+    <div id="controls">
+      <div id="dpad">
+        <div id="up"></div>
+        <div id="down"></div>
+      </div>
+      <div id="shoot"></div>
+      <div id="button"></div>
+      <div id="reset"></div>
+    </div>
+  </div>
+<script src="./bundle.js"></script>
+
+</br>
+
+<h5>Made with Phaser - With GameBoy style limitations</h5>
+
+<ul>
+  <li>
+    Up/down arrows to move
+  </li>
+  <li>
+    Space to lasso
+  </li>
+  <li>
+    Bump living cattle to move them up screen
+  </li>
+  <li>
+    Prevent anything but skulls from moving off the left side of the screen
+  </li>
+</ul>
