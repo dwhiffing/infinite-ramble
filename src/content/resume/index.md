@@ -4,51 +4,49 @@ layout: layout.html
 
 # Daniel Whiffing
 
-## Developer/Designer
-
----
-
-I am proficient with ES6 (JavaScript), Ruby, Lua, and AS3. I also have experience with Java, and PHP.
-
-I've used Node.js when working with ES6 for the past 2 years, and have worked on many Rails applications. I am well versed with current web front-end technologies, including React, React-Native and Angular, as well as Redux, Backbone, jQuery, and SCSS.
-
-I like to use a simple setup for my node projects, making use of Babel and simple npm scripts for recurring builds and ES6 support. I use mocha/sinon/chai for testing, and have been playing around with [Wallaby](http://wallabyjs.com/) for constant coverage reporting within my editor.
-
-I've done game development for the web for many years, and have made games with AS2, AS3, JavaScript, Lua, and Java. More recently, I've been developing game prototypes using Phaser, focusing on simple, action based game mechanics. I've created prototypes for a variety of web game meetups and competitions, including Global Game Jam (3 years), TO Jam (2 years), JS13k (2 years), and Ludum Dare (1 year).
-
-I've been trained as an artist, and I am experienced as a painter.
-
-I've also received training as a Graphic and Web Designer.
-
-I consider improving UX my primary goal while developing.
-
-I am passionate about making games that start simple but become complex over time.
-
-Some of my favorite games right now are [Hoplite](https://play.google.com/store/apps/details?id=com.magmafortress.hoplite&hl=en), [Desert Golfing](https://play.google.com/store/apps/details?id=com.captaingames.golf), and [Factorio](https://www.factorio.com/)
-
 ## Employment History
 
 ---
 
-### Senior Software Developer - Drop. 2016 - Present.
+### Engineering Lead - Growth - Drop. 01/2018 - 03/2019.
 
-- Developed iOS/Android MVP using react-native in ~4 months
-- Work closely with Product Managers to provide best UX possible
-- Spec out Product
-- Manage intern work and development
+- Working as the Engineering Lead for the Growth team, I helped to mentor and guide the other engineers on my team.  This included training new engineers and co-ops, introducing them to our culture and showing them how to succeed at Drop
+- Assisted with Project Management by creating and maintaining technical tickets for our team while still performing regular IC responsibilities
+- Worked with Product Team and Management as the company grew to help plan an Effective Product Roadmap based on set OKRs Had regular check ins with team members to discuss work satisfaction, alignment with company goals, and ways to create more impact
+- By understanding the way the Product Team worked most effectively, I was able to consistently meet tight deadlines while still acting as an advocate for Technical Excellence across our platform
+- With the Head of Product, I developed multiple games with the app which funnelled churned users back into our flywheel and increased WAU by a consistent 23%. We also worked on amplification features for the Business Development team to close deals with new partners
 
-### Full Stack Developer - Ruby Life Media. 2012 - 2016.
+### Senior Software Developer - Drop. 01/2016 - 01/2018.
 
-- Maintained a legacy product using Ruby/Merb, JS/Backbone, jQuery, SASS.etc
-- Used Ruby/Rails and JS/Node on a daily basis on a product with millions of users
-- Modernized a legacy product using React/Redux with a documented and test covered node application
-- Worked closely with product managers to ensure that app specs are up to standards
+- I led 6 Software Engineering Co-ops, introducing them to our conventions and technical frameworks.  I helped them to complete their initial tasks and manage their progress on any features they worked on.
+- Developed React Native iOS/Android application in under 4 months with a very limited specifications and minimal design finalized. Was able to find a balance between delivering quality vs quickly that satisfied company objectives
+- Always treated UX and Code Quality as a priority; I acted as a pseudo Product Manager initially, working closely with Product Managers once they joined
+- With no data team, I added event tracking and tooling to support experimentation by the Product Team to help find Product Market fit and learn more about our users. When generated reports were inadequate for their needs, I wrote new queries to drive their insights
+- Acted as primary Engineer responsible for stability of Application code, keeping a close eye on new issues and working quickly to resolve them. Also worked on Ruby Backend and implemented necessary changes to support Application features I was developing
 
-### Game Developer/Designer - Extra Extra Games. 2013 - 2014.
 
-- Developed viral games for iOS using Lua and Corona
-- Designed and developed games independently, receiving art and traffic from coworkers
-- Honed time management skills to produce quickly under extremely short deadlines (~1 week)
+### Full Stack Developer - Ruby Life Media. 01/2013 - 01/2016.
+
+- Maintained a legacy code base, rewriting aging code to support newer versions of Rails, making the application cheaper to run, easier to develop, and more stable for our users
+- During my extra time while waiting for new work, developed a new React based product to replace the existing Javascript application being presented to Mobile users. This embraced by the Product Team and eventually became the default Mobile Web experience
+- Whenever possible, worked closely with Product Managers and Designers to ensure all features were implemented according to spec with a consistent User Experience
+
+## Personal Projects
+
+---
+
+### Toronto Game Jam and Global Game Jam 2013 - Present.
+
+- Participated in weekend Game Development Hackathon in January for each year since 2013, creating a game within a 48 hour period either independently or on a team
+- When working independently, I have carefully planned and organized the designing the game, creating the art, writing the code, and creating sound effects to fit within a short time span while still coming out with a fun and unique product
+- Learned to collaborate and communicate with people with a variety of interesting and unique skill sets and personalities. I developed as sense of how to balance fun and hard work to create a positive environment for collaborators
+
+### Extra Extra Games. 2013 - 2014.
+
+- Created viral mobile games rapidly with a team of artists to capitalize on recent viral news, trying to release the games within 48 hours of the news breaking
+- I accomplished this by developing of a series of templates that allowed gameplay concepts to be quickly re-used with new assets and minor tweaks to existing gameplay to add a new twist
+- We released a series of Mobile games during a 5 month period that allowed us to get consistent spikes in ad revenue on release, which was supplemented by the sale of physical products like t-shirts and coffee mugs
+- Some of my favorite games right now are [Hoplite](https://play.google.com/store/apps/details?id=com.magmafortress.hoplite&hl=en), [Desert Golfing](https://play.google.com/store/apps/details?id=com.captaingames.golf), and [Factorio](https://www.factorio.com/)
 
 ## Education
 
@@ -61,3 +59,4 @@ Some of my favorite games right now are [Hoplite](https://play.google.com/store/
 ### Art Fundamentals - Sheridan College. 2009 - 2010.
 
 - Learned critical skills involving Design, Color Theory, and Rapid Development
+

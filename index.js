@@ -46,9 +46,6 @@ Metalsmith(__dirname)
     frontend: {
       pattern: 'content/frontend/*.md'
     },
-    ramble: {
-      pattern: 'content/ramble/*.md'
-    }
   }))
   .use(markdown())
   .use(permalinks(':collections'))
