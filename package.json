@@ -2,7 +2,7 @@
   "name": "infinite-ramble",
   "private": true,
   "dependencies": {
-    "handlebars": "^4.0.3",
+    "handlebars": "^4.3.0",
     "metalsmith": "^2.2.0",
     "metalsmith-browser-sync": "^1.1.0",
     "metalsmith-collections": "^0.7.0",
